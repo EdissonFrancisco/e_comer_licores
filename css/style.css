@@ -1,0 +1,150 @@
+/*fondo*/
+.fondo-loging {
+    background: #0c0c0c;
+    background: linear-gradient(to right, #351313, #c57a18);
+}
+
+/*imagen*/
+.bg {
+    background-image: url(../img/fondoInicio.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*caja de formularios*/
+.form-box {
+    height: 560px;
+    position: relative;
+	margin: auto;
+	background: #fff;
+    background: rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.containerMT {
+	width: 50%;
+}
+
+/*botones de inio y registro*/
+.butonbox {/*caja de botones*/
+	width: 210px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;/*sombra al rededor de boton*/
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.toggle-btn {/*alternar botones*/
+	padding: 10px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+#btn { /*estilo y color de boton*/
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+/*formularios Inicio*/
+.input-group {
+	top: 30px;
+	position: absolute;
+	width: 300px;
+	transition: .5s;
+}
+
+#login {
+	top: 210px;
+	position: absolute;
+	width: 90%;
+	transition: .5s;
+	left: 1000;	
+}
+
+#registro {
+	top: 210px;
+	position: absolute;
+	width: 90%;
+	transition: .5s;
+	margin-left: 1000;
+}
+
+/* Formularios Marca / Tipo (admin): paneles relativos al ancho, no píxeles fijos */
+
+.marcar-tipo-max {
+	width: 100%;
+	max-width: min(36rem, 96vw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-marca-tipo-shell.form-box {
+	height: auto;
+	min-height: clamp(26rem, 55vh, 40rem);
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: visible;
+	padding-bottom: 1.25rem;
+}
+
+.form-marca-tipo-shell #CrearMarca,
+.form-marca-tipo-shell #CrearTipo {
+	top: 8rem;
+	position: absolute;
+	left: 1rem;
+	width: calc(100% - 2rem);
+	margin-left: 0;
+	box-sizing: border-box;
+	transition: transform 0.35s ease;
+	will-change: transform;
+}
+
+.form-marca-tipo-shell #CrearMarca {
+	transform: translateX(0);
+}
+
+.form-marca-tipo-shell #CrearTipo {
+	transform: translateX(118%);
+}
+
+/** fondo de recuperar clave */
+.fondoRcuClave {
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/fondoInicio.png");
+	background-size: cover;
+	background-position: center;
+}
+
+/** car de productos clientes */
+.cardCliente {
+	border: none;
+	outline: none;
+	background-color: #fff;
+	border-radius: 50px;
+	transition: transform .3s;
+}
+
+.cardCliente:hover {
+	transform: translateY(-15px);
+	transition: transform .3s;
+}
+
+
+
+
+
+
+
